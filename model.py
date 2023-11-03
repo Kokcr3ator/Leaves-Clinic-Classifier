@@ -3,7 +3,7 @@ import tensorflow as tf
 
 class model:
     def __init__(self, path):
-        self.model = tf.keras.models.load_model(os.path.join(path, 'SubmissionModel'))
+        self.model = tf.keras.models.load_model(os.path.join(path, 'SubmissionModel\LeNet_CIFAR10'))
 
     def predict(self, X):
         
