@@ -1,5 +1,6 @@
 import os
 import tensorflow as tf
+import numpy as np
 
 class model:
     def __init__(self, path):
@@ -11,5 +12,5 @@ class model:
         # Here the model.predict is called, followed by the argmax
         out = self.model.predict(X)
         out = tf.argmax(out, axis=-1)  # Shape [BS]
-
         return out
+    
