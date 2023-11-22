@@ -19,6 +19,8 @@ The dataset used for this project can be found [here](https://drive.google.com/f
    - [RandAugment](#randaugment)
    - [Test Time Augmentation](#test-time-augmentation)
 5. [Performance Assessment and Further Optimization](#performance-assessment-and-further-optimization)
+6. [Files in the Repository](#files-in-the-repository)
+7. [References](#references)
 
 ## Data Preprocessing
 
