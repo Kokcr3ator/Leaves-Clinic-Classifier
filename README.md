@@ -1,8 +1,8 @@
-# Project Name
+# Deep Learning for Vertical Farm Leaf Health Classification
 
 ## Overview
 
-This project is the first challenge of the course "Artificial Neural Networks and Deep Learning" at Politecnico di Milano for the academic year 2023-2024. The objective is to classify images of leaves as healthy or unhealthy using a deep learning approach. The model achieved outstanding results, demonstrating an accuracy of 94.00% and 92.70% on the preliminary and final test sets, respectively. This performance underscores the strong robustness and efficiency of our augmentation strategies, showcasing the model's excellent generalization capabilities. Notably, our team secured the first position among more than 150 teams, surpassing others by a significant margin of 2%.
+This project is the first challenge of the course "Artificial Neural Networks and Deep Learning" at Politecnico di Milano for the academic year 2023-2024. The objective is to classify images of vertical farm leaves based on their health status using a deep learning approach. The model achieved outstanding results, demonstrating an accuracy of 94.00% and 92.70% on the preliminary and final test sets, respectively. This performance underscores the strong robustness and efficiency of our augmentation strategies, showcasing the model's excellent generalization capabilities. Notably, our team secured the first position among more than 150 teams, surpassing others by a significant margin of 2%.
 
 ## Dataset
 
