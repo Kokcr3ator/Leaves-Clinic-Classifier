@@ -58,6 +58,27 @@ The ROC curve analysis led to the identification of an optimal threshold, enhanc
 - **Training - with outputs.ipynb:** Jupyter Notebook for model training, including the loading of data, model initialization, transfer learning, and fine-tuning, with outputs included.
 - **report.pdf:** Detailed report outlining the project's workflow, methodologies, and results.
 
+## Pre-trained Model
+
+We have included a pre-trained ConvNeXtLarge feature extractor for health status classification of vertical farm leaves. You can load the model using the following Keras method:
+
+'''python
+import tensorflow.keras as tfk
+
+# Load the pre-trained model
+model = tfk.models.load_model('model_health_classifier')
+'''
+
+### Model Details
+
+- **Model Architecture:** ConvNeXtLarge adapted to binary health classification task.
+- **Purpose:** Health status classification of vertical farm leaves
+- **Build and Training Details:** Refer to the [Training - with outputs.ipynb](Training%20-%20with%20outputs.ipynb) file for training specifics.
+
+### Access the Pre-trained Model
+
+You can download the pre-trained model from our Google Drive folder: [Model Health Classifier](https://drive.google.com/drive/folders/1UNth_0bhNkjKRo4-LX731XN3ZiyzUAIq?usp=sharing)
+
 ## References
 
 1. Ding H. et al. KA-Ensemble: towards imbalanced image classification ensembling under-sampling and oversampling. 2020. DOI: [10.1007/s11042-019-07856-y](https://doi.org/10.1007/s11042-019-07856-y).
@@ -79,7 +100,3 @@ The ROC curve analysis led to the identification of an optimal threshold, enhanc
 17. Ekin D. Cubuk et al. RandAugment: Practical automated data augmentation with a reduced search space. 2019. arXiv: [1909.13719 [cs.CV]](https://arxiv.org/abs/1909.13719).
 18. Masanari Kimura. “Understanding Test-Time Augmentation”. In: Neural Information Processing. Ed. by Teddy Mantoro et al. Cham: Springer International Publishing, 2021, pp. 558–569. ISBN: 978-3-030-92185-9.
 19. Jayawant N. Mandrekar. “Receiver Operating Characteristic Curve in Diagnostic Test Assessment”. In: Journal of Thoracic Oncology 5.9 (2010), pp. 1315–1316. ISSN: 1556-0864. DOI: [10.1097/JTO.0b013e3181ec173d](https://doi.org/10.1097/JTO.0b013e3181ec173d). URL: [https://www.sciencedirect.com/science/article/pii/S1556086415306043](https://www.sciencedirect.com/science/article/pii/S1556086415306043).
-
-
-
-
