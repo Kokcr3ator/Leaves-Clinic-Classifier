@@ -32,7 +32,7 @@ Various ImageNet pre-trained architectures were evaluated, with the ConvNeXt fam
 
 ### Fine-Tuning
 
-The pre-trained model was fine-tuned by unfreezing the first half of the convolutional network, progressively unfreezing more layers. This process significantly improved accuracy on the validation set.
+The pre-trained model was fine-tuned by unfreezing the first half of the convolutional network, progressively unfreezing more layers. This process significantly improved accuracy on the validation set with respect to the Transfer Learning only.
 
 ## Learning Rate Scheduler and Optimizer
 
@@ -40,13 +40,11 @@ An in-depth analysis of optimizers (Adam, AdamW, Experimental SGD, Lion) and a d
 
 ## Augmentation
 
-To enhance generalization, RandAugment, a preprocessing layer, was applied. Test Time Augmentation (TTA) with 11 geometric transformations was employed during model evaluation.
+To enhance generalization, RandAugment, a preprocessing layer of KerasCV, coupled with some other geometric augmentation, were applied. Test Time Augmentation (TTA) with 11 geometric transformations was employed during model evaluation.
 
 ## Performance Assessment and Further Optimization
 
 The ROC curve analysis led to the identification of an optimal threshold, enhancing the model's ability to distinguish between healthy and unhealthy leaves.
-
-## References
 
 ## References
 
