@@ -46,6 +46,16 @@ To enhance generalization, RandAugment, a preprocessing layer of KerasCV, couple
 
 The ROC curve analysis led to the identification of an optimal threshold, enhancing the model's ability to distinguish between healthy and unhealthy leaves.
 
+## Files in the Repository
+
+- **.gitattributes:** Git attributes file.
+- **Data Preprocessing.ipynb:** Jupyter Notebook containing code for data cleaning and preprocessing, including the removal of outliers and duplicates.
+- **Inference.ipynb:** Jupyter Notebook demonstrating model inference on the validation set, with plotting of the ROC curve and setting of the optimal threshold.
+- **Optimizers.ipynb:** Jupyter Notebook exploring and analyzing optimizers' performance, with a focus on their impact on the ConvNeXtLarge model.
+- **README.md:** Project's README file providing an overview and documentation.
+- **Training - with outputs.ipynb:** Jupyter Notebook for model training, including the loading of data, model initialization, transfer learning, and fine-tuning, with outputs included.
+- **report.pdf:** Detailed report outlining the project's workflow, methodologies, and results.
+
 ## References
 
 1. Ding H. et al. KA-Ensemble: towards imbalanced image classification ensembling under-sampling and oversampling. 2020. DOI: [10.1007/s11042-019-07856-y](https://doi.org/10.1007/s11042-019-07856-y).
