@@ -20,7 +20,10 @@ The dataset used for this project can be found [here](https://drive.google.com/f
    - [Test Time Augmentation](#test-time-augmentation)
 5. [Performance Assessment and Further Optimization](#performance-assessment-and-further-optimization)
 6. [Files in the Repository](#files-in-the-repository)
-7. [References](#references)
+7. [Pre_Trained Model](#pre-trained-model)
+   - [Model Details](#model-details)
+   - [Access the Pre-trained Model](#access-the-pretrained-model)
+8. [References](#references)
 
 ## Data Preprocessing
 
@@ -62,12 +65,12 @@ The ROC curve analysis led to the identification of an optimal threshold, enhanc
 
 We have included a pre-trained ConvNeXtLarge feature extractor for health status classification of vertical farm leaves. You can load the model using the following Keras method:
 
-'''python
+```python
 import tensorflow.keras as tfk
 
 # Load the pre-trained model
 model = tfk.models.load_model('model_health_classifier')
-'''
+```
 
 ### Model Details
 
